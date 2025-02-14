@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CamList:1b,HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-127,Operation:0,UUID:[I;95226840,-2097724647,-1583523333,-1498113578]}],display:{Name:'{\"text\":\"Press RMB to Switch Camera\",\"italic\":false}'},pages:['[{\"text\":\"        \"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Show Stage\"}},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dining Area\"}},{\"text\":\"\\\\n  \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Backstage\"}},{\"text\":\"              \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_11\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Restrooms\"}},{\"text\":\"\\\\n\\\\n    \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pirate Cove\"}},{\"text\":\"\\\\n\\\\n             \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"\\\\n                 \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_10\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Kitchen\"}},{\"text\":\"\\\\n   \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Supply Closet\"}},{\"text\":\"\\\\n       \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"West Hall\"}},{\"text\":\"    \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"East Hall\"}},{\"text\":\"\\\\n\\\\n       \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_5\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"W. Hall Corner\"}},{\"text\":\"\",\"bold\":true,\"color\":\"gray\"},{\"text\":\"    \",\"bold\":true,\"color\":\"gray\"},{\"text\":\"  \",\"bold\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function fnaf:cameras/switch_8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"E. Hall Corner\"}}]'],title:\"\",author:\"\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

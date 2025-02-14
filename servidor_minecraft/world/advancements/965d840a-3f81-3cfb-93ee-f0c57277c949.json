@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2021-12-31 22:04:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2021-12-31 22:03:03 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

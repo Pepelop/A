@@ -1,0 +1,1 @@
+execute if score *Power Game matches 1.. run tag @e[tag=buttons_right] remove cd

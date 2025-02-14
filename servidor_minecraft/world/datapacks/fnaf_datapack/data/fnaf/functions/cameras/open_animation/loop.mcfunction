@@ -1,0 +1,7 @@
+scoreboard players add *CameraAnim Timer 1
+execute unless data entity @s SelectedItem{tag:{CamAnim:1b}} run kill @e[type=item]
+execute if score *CameraAnim Timer matches 1 run item replace entity @s weapon.mainhand with paper{CamAnim:1b,display:{Name:'{"text":" "}'},HideFlags:2,CustomModelData:2,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;95226840,-2097724647,-1583523333,-1498113578]}]}
+execute if score *CameraAnim Timer matches 2 run item replace entity @s weapon.mainhand with paper{CamAnim:1b,display:{Name:'{"text":" "}'},HideFlags:2,CustomModelData:3,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;95226840,-2097724647,-1583523333,-1498113578]}]}
+execute if score *CameraAnim Timer matches 3..4 run item replace entity @s weapon.mainhand with paper{CamAnim:1b,display:{Name:'{"text":" "}'},HideFlags:2,CustomModelData:4,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;95226840,-2097724647,-1583523333,-1498113578]}]}
+execute if score *CameraAnim Timer matches 5..6 run item replace entity @s weapon.mainhand with paper{CamAnim:1b,display:{Name:'{"text":" "}'},HideFlags:2,CustomModelData:5,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-127,Operation:0,UUID:[I;95226840,-2097724647,-1583523333,-1498113578]}]}
+execute if score *CameraAnim Timer matches 7 run function fnaf:cameras/open
